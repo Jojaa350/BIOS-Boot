@@ -24,7 +24,7 @@
 	xor ax, ax
 	mov es, ax
 	lea bx, .text
-	mov ax, 0x0201 // Load (ah) one (al) sement
+	mov ax, 0x0201 // Load (ah) one (al) segment
 	mov cx, 0x0002 // From cylinder 0, sector 2
 	mov dh, 0x00 // From head 0
 	// keep dl
